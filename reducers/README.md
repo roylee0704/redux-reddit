@@ -3,7 +3,7 @@
 In a nutshell. Reducer is a just utility function that transforms an input (be it object /array/ primitive data) and 
 returns an output of different form.
 
-## Reducer Notation
+## 1.0 Reducer Notation
 
 1. In Generic Context
 
@@ -24,12 +24,14 @@ or from low-level perspective,
 **Note**: So, reducer? In my own word, it is known better as a State Transformer, or function that transforms state.
 
 
-## Let's talk about Reducer's State  (In Redux Context)
+## 2.0 State (In Redux Context)
+
+Let's talk about Reducer's sate. 
 
 Well, `state` that you seen now has greatly simplified, thanks to `combineReducers()`. Originally, or technically,
 that `state` passed in/out from `Reducer` should be known as a `state tree` (a bunch of states), that just one state.
 
-### What is state tree?
+### 2.1 What is state tree?
 
 Literally, it means tree that hangs states, with tree-height of 1.
 
@@ -58,7 +60,8 @@ For example,
 
 **Note** : In my own word, state tree just a *hash_map* or *key_value_pairs*.
 
+---
 
-### What is state?
+### 2.2 What is state?
 
 In my own word, `state` is just a variable that holds a value.
