@@ -32,7 +32,7 @@ Let's talk about Reducer's sate.
 Well, `state` that you seen now has greatly simplified, thanks to `combineReducers()`. Originally, or technically,
 that `state` passed in/out from `Reducer` should be known as a `state tree` (a bunch of states), than just one state.
 
-### 2.1 What is state tree?
+### What is state tree?
 
 Literally, it means tree that hangs states, with tree-height of 1.
 
@@ -61,11 +61,12 @@ state_tree['selectedReddit'] = 'reactjs'
 **Note** : In my own word, state tree just a *hash_map* or *key_value_pairs*.
 
 
-### 2.2 What is state?
+### What is state?
 
 In my own word, `state` is just a variable that holds a value.
 
 
-### 2.3 What about action?
+### What about action?
 
-Well, metaphorically, action is more likely a token to `buy` or `change` new state?
+Well, metaphorically, action is more likely a token to `buy` or `change` new state? And Reducer is like a merchant shop 
+where you trade new `state` for an `action.
