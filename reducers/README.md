@@ -29,7 +29,7 @@ or from low-level perspective,
 Let's talk about Reducer's sate. 
 
 Well, `state` that you seen now has greatly simplified, thanks to `combineReducers()`. Originally, or technically,
-that `state` passed in/out from `Reducer` should be known as a `state tree` (a bunch of states), that just one state.
+that `state` passed in/out from `Reducer` should be known as a `state tree` (a bunch of states), than just one state.
 
 ### 2.1 What is state tree?
 
