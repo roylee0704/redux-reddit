@@ -10,21 +10,19 @@ at `containers/app.js` (a building).
 In a nutshell, it is just `<HTML>`, and any '<HTML>` element would have:
 
 1. Attribute-tag. Anything that makes up a visual display.
-
-- color
-- text
-- width/height
-- selected
-- checked
-- top-position/left-position
-- ...etc (other css-styles)
+    - color
+    - text
+    - width/height
+    - selected
+    - checked
+    - top-position/left-position
+    - ...etc (other css-styles)
 
 
 2. Event-handler-tag:
-
-- onClick
-- onChange
-- onFocus
+    - onClick
+    - onChange
+    - onFocus
 
 --- 
 
