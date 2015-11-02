@@ -64,3 +64,8 @@ state_tree['selectedReddit'] = 'reactjs'
 ### 2.2 What is state?
 
 In my own word, `state` is just a variable that holds a value.
+
+
+### 2.3 What about action?
+
+Well, metaphorically, action is more likely a token to `buy` or `change` new state?
