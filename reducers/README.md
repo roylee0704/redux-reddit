@@ -24,6 +24,7 @@ or from low-level perspective,
 **Note**: So, reducer? In my own word, it is known better as a State Transformer, or function that transforms state.
 
 
+
 ## 2.0 State (In Redux Context)
 
 Let's talk about Reducer's sate. 
@@ -38,29 +39,27 @@ Literally, it means tree that hangs states, with tree-height of 1.
 In javascript object literal form, it looks like this:
 
 ```javascript
-    state_tree = {
-        state_1: {},
-        state_2: '',
-        state_3: 0,
-        state_n: value
-    }
+state_tree = {
+    state_1: {},
+    state_2: '',
+    state_3: 0,
+    state_n: value
+}
 ```
 
 For example,
 
 ```javascript
-    
-  state_tree['state_2'] = value
-  
-  # also equals to...
-  
-  state_tree['selectedReddit'] = 'reactjs'
+state_tree['state_2'] = value
+
+# also equals to...
+
+state_tree['selectedReddit'] = 'reactjs'
 ```
 
 
 **Note** : In my own word, state tree just a *hash_map* or *key_value_pairs*.
 
----
 
 ### 2.2 What is state?
 
