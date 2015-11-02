@@ -10,3 +10,7 @@ returns an output of different form.
 ## Reducer Notation in Redux Context
 
 (previous-state, action) => new-state
+
+or from low-level perspective,
+
+({}, action) => {}
