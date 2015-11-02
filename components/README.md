@@ -7,7 +7,7 @@ at `containers/app.js` (a building).
 
 ## Components in React context
 
-In a nutshell, it is just `<HTML>`, and any '<HTML>` element would have:
+In a nutshell, it is just `<HTML>`, and any `<HTML>` element would have:
 
 1. Attribute-tag. Anything that makes up a visual display.
     - color
