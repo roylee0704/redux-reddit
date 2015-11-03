@@ -67,10 +67,10 @@ In my own word, `state` is just a variable that holds a value. As @redux_creator
 states/state-tree before anything else. Then the next question to ask, how do you define `state` in first place? 
 How do you know what `state` to create? 
 
-It's not as hard as you might think, just look at the inputs of `containers/App`, what variable-value does it needs? 
+It's not as hard as you think, just look at the inputs of `containers/App`, what variable-value does it needs? 
 That's the `state` you need.
 
-*Tips*: Your `react` component shapes your `state`.
+*Tips*: `react` component is a function, `state` is its input parameter.
 
 
 ### What about action?
