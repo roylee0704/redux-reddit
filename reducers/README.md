@@ -74,7 +74,7 @@ where you trade new `state` for an `action.
 
 ## Code Snippets
 
-```javascripts
+```javascript
 
 /**
  * Named after variable.
