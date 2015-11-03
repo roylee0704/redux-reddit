@@ -34,7 +34,7 @@ that `state` passed in/out from `Reducer` should be known as a `state tree` (a b
 
 ### What is state tree?
 
-Literally, it means tree that hangs states, though the tree could have height n, but all of states will have depth of 1.
+Literally, it is a tree that hangs states, though the tree could have height n, but all of states will have depth of 1.
 
 In javascript object literal form, it looks like this:
 
