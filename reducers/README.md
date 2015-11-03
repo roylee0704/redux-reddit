@@ -70,3 +70,38 @@ In my own word, `state` is just a variable that holds a value.
 
 Well, metaphorically, action is more likely a token to `buy` or `change` new state? And Reducer is like a merchant shop 
 where you trade new `state` for an `action.
+
+
+### Code Snippets
+
+```javascripts
+
+/**
+ * Named after variable.
+ * This function handles the update of variable: selectedReddit
+ * @param state
+ * @param action
+ * @returns {string}
+ */
+function selectedReddit(state = 'reactjs', action = {}) {
+    switch (action.type) {
+        case SELECT_REDDIT:
+            return action.data;
+        default:
+            console.log(state);
+            return state;
+    }
+}
+
+```
+
+**Note**: `event` === `action`
+
+
+A reducer(small) is a function that named after the variable, and returns the value of that variable itself, depending 
+on the action. 
+
+This function will be called(blasted by `combineReducer` utility) every single time, whenever there is a `dispatch()`. 
+Hence, as you may observe, within the `switch` statement, if you are interested with an `action`, you **subscribe** to it.
+
+Another words, if you ever need to update a variable/'s value when an event/action occurs, do so by subscribing it.
