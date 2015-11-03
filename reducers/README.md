@@ -72,7 +72,7 @@ Well, metaphorically, action is more likely a token to `buy` or `change` new sta
 where you trade new `state` for an `action.
 
 
-### Code Snippets
+## Code Snippets
 
 ```javascripts
 
