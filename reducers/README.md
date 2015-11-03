@@ -3,7 +3,7 @@
 In a nutshell. Reducer is a just utility function that transforms an input (be it object /array/ primitive data) and 
 returns an output of different form.
 
-## 1.0 Reducer Notation
+## 1.0  Reducer Notation
 
 1. In Generic Context
 
@@ -25,7 +25,7 @@ or from low-level perspective,
 
 
 
-## 2.0 State (In Redux Context)
+##  2.0 State (In Redux Context)
 
 Let's talk about Reducer's sate. 
 
@@ -79,7 +79,7 @@ Well, metaphorically, action is more likely a token to `buy` or `change` new sta
 where you trade new `state` for an `action.
 
 
-## Code Snippets
+## 3.0  Code Snippets
 
 ```javascript
 
