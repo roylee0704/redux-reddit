@@ -63,7 +63,14 @@ state_tree['selectedReddit'] = 'reactjs'
 
 ### What is state?
 
-In my own word, `state` is just a variable that holds a value.
+In my own word, `state` is just a variable that holds a value. As @redux_creator says, it's important to define your 
+states/state-tree before anything else. Then the next question to ask, how do you define `state` in first place? 
+How do you know what `state` to create? 
+
+It's not as hard as you might think, just look at the inputs of `containers/App`, what variable-value does it needs? 
+That's the `state` you need.
+
+*Tips*: Your `react` component shapes your `state`.
 
 
 ### What about action?
