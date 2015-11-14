@@ -23,6 +23,11 @@ Note: create .eslintrc on your own
 ```
 
 
+## To use with WebStorm
+
+1. Go Settings -> Languages & Frameworks -> Javascripts -> Code Quality Tools -> ESlint
+2. Enable ESLint
+
 
 ##Resources
 
