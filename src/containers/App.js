@@ -6,8 +6,8 @@ import {connect} from 'react-redux';
 import Picker from '../components/Picker.react.js';
 import Posts from '../components/Posts.react.js';
 
-import RaisedButton from '../node_modules/material-ui/lib/raised-button';
-import Paper from '../node_modules/material-ui/lib/paper';
+import RaisedButton from 'material-ui/lib/raised-button';
+import Paper from 'material-ui/lib/paper';
 
 
 /* actions*/
